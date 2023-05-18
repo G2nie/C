@@ -4,6 +4,7 @@ int main() {
 	int s,e;
 
     // 유효성 검사
+	// s와 e가 2와 9사이의 정수가 아닐 경우 input error 출력 후 다시 입력 받음
 	while(1) {
 	    scanf("%d %d",&s,&e);
 
